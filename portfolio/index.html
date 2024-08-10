@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Arya's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Arya</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button>Download Resume</button>
+                    <button>Visit GitHub</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="dev.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">What have I done so far</span>
+            <h1>Work Experiences</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="c.png" alt="">
+                    <div class="vertical-title">
+                        C programmer(2022-)
+                    </div>
+                    <!-- <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iusto consectetur ullam quas tempore nulla laborum eum excepturi soluta perspiciatis.
+                    </div> -->
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="html.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer(2024-)
+                    </div>
+                    <!-- <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iusto consectetur ullam quas tempore nulla laborum eum excepturi soluta perspiciatis.
+                    </div> -->
+                </div><div class="vertical">
+                    <img class="image-top" src="css.png" alt="">
+                    <div class="vertical-title">
+                        CSS Developer(2024-)
+                    </div>
+                    <!-- <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iusto consectetur ullam quas tempore nulla laborum eum excepturi soluta perspiciatis.
+                    </div> -->
+                </div><div class="vertical">
+                    <img class="image-top" src="JS.png" alt="">
+                    <div class="vertical-title">
+                        JS Developer(2024-)
+                    </div>
+                    <!-- <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iusto consectetur ullam quas tempore nulla laborum eum excepturi soluta perspiciatis.
+                    </div> -->
+                </div><div class="vertical">
+                    <img class="image-top" src="dev1.png" alt="">
+                    <div class="vertical-title">
+                        JAVA Developer(2024-)
+                    </div>
+                    <!-- <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iusto consectetur ullam quas tempore nulla laborum eum excepturi soluta perspiciatis.
+                    </div> -->
+                </div><div class="vertical">
+                    <img class="image-top" src="dev1.png" alt="">
+                    <div class="vertical-title">
+                        DSA Programmer(2023-)
+                    </div>
+                    <!-- <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iusto consectetur ullam quas tempore nulla laborum eum excepturi soluta perspiciatis.
+                    </div> -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="flex">
+            <div class="footer-text">
+                <h2>&copy Arya's Portfolio (2024)</h2>
+                
+            </div>
+            
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Programmer', 'Video Editor', 'Photo Editor'],
+            typeSpeed: 100,
+        });
+    </script>
+</body>
+
+</html>
